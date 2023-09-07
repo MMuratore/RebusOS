@@ -6,10 +6,7 @@ namespace RebusOS.Domain.Rebuses.ValueObjects;
 
 public sealed class Word : ValueObject
 {
-    private Word(string value)
-    {
-        Value = value;
-    }
+    private Word(string value) => Value = value;
 
     public string Value { get; private set; }
 

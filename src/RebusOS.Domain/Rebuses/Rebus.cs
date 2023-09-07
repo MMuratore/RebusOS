@@ -8,10 +8,7 @@ public sealed class Rebus : AggregateRoot<RebusId, Guid>
 {
     private readonly List<Answer> _answers = new();
 
-    public Rebus(Word solution)
-    {
-        Solution = solution;
-    }
+    public Rebus(Word solution) => Solution = solution;
 
     public Word Solution { get; private set; }
 
