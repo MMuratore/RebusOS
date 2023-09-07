@@ -2,12 +2,12 @@
 
 namespace RebusOS.Domain.Seasons.ValueObjects;
 
-public sealed class SeasonId : AggregateRootId<Guid>
+public sealed class Ranking : ValueObject
 {
-    public override Guid Value { get; protected set; }
+    private readonly List<Result> _results = new();
 
     protected override IEnumerable<object> GetEqualityComponents()
     {
-        yield return Value;
+        yield return _results;
     }
 }

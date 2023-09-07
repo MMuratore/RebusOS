@@ -2,8 +2,12 @@
 
 namespace RebusOS.Domain.Rebuses.ValueObjects;
 
-public class RebusId : AggregateRootId<Guid>
+public sealed class RebusId : AggregateRootId<Guid>
 {
     public override Guid Value { get; protected set; }
-    protected override IEnumerable<object> GetEqualityComponents() => throw new NotImplementedException();
+
+    protected override IEnumerable<object> GetEqualityComponents()
+    {
+        yield return Value;
+    }
 }

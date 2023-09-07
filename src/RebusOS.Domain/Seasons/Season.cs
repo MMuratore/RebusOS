@@ -3,6 +3,6 @@ using RebusOS.Domain.Seasons.ValueObjects;
 
 namespace RebusOS.Domain.Seasons;
 
-public class Season : AggregateRoot<SeasonId, Guid>
+public sealed class Season : AggregateRoot<SeasonId, Guid>
 {
 }

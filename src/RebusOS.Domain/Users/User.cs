@@ -3,6 +3,6 @@ using RebusOS.Domain.Users.ValueObjects;
 
 namespace RebusOS.Domain.Users;
 
-public class User : AggregateRoot<UserId, Guid>
+public sealed class User : AggregateRoot<UserId, Guid>
 {
 }
