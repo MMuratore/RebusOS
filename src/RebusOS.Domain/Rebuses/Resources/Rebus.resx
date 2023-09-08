@@ -30,4 +30,7 @@
     <data name="Word_UnknownWord" xml:space="preserve">
         <value>Word_UnknownWord</value>
     </data>
+    <data name="Rebus_CreatorCannotSubmitAnswer" xml:space="preserve">
+        <value>Rebus_CreatorCannotSubmitAnswer</value>
+    </data>
 </root>

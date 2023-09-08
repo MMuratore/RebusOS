@@ -21,4 +21,7 @@
     <data name="Word_UnknownWord" xml:space="preserve">
         <value>Le mot doit figurer dans le dictionnaire</value>
     </data>
+    <data name="Rebus_CreatorCannotSubmitAnswer" xml:space="preserve">
+        <value>Le créateur ne peut pas soumettre une réponse à son propre rébus</value>
+    </data>
 </root>

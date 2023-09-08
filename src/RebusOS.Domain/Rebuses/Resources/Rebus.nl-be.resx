@@ -21,4 +21,7 @@
     <data name="Word_UnknownWord" xml:space="preserve">
         <value>Het woord moet in het woordenboek voorkomen</value>
     </data>
+    <data name="Rebus_CreatorCannotSubmitAnswer" xml:space="preserve">
+        <value>Schepper kan geen antwoord geven op zijn eigen rebus</value>
+    </data>
 </root>

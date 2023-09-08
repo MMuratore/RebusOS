@@ -60,6 +60,15 @@ namespace RebusOS.Domain.Rebuses.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rebus_CreatorCannotSubmitAnswer.
+        /// </summary>
+        internal static string Rebus_CreatorCannotSubmitAnswer {
+            get {
+                return ResourceManager.GetString("Rebus_CreatorCannotSubmitAnswer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rebus_DuplicateAnswer.
         /// </summary>
         internal static string Rebus_DuplicateAnswer {

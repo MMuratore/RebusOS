@@ -21,4 +21,7 @@
     <data name="Rebus_DuplicateAnswer" xml:space="preserve">
         <value>Answer with given value already exists</value>
     </data>
+    <data name="Rebus_CreatorCannotSubmitAnswer" xml:space="preserve">
+        <value>Creator cannot submit an answer to its own rebus</value>
+    </data>
 </root>
